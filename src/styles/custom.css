@@ -1,0 +1,24 @@
+/* src/styles/custom.css */
+
+
+/* Ensure the footer stays at the bottom */
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.primary {
+    color: blueviolet;
+    background-color: aqua;
+}
